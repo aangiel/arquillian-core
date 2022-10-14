@@ -28,6 +28,7 @@
     <version.junit5.platform>1.9.0</version.junit5.platform>
     <version.junit5>5.9.0</version.junit5>
     <version.mockito>4.8.0</version.mockito>
+    <version.spock>2.3-groovy-4.0</version.spock>
     <version.testng>7.5</version.testng>
     <version.assertj>3.23.1</version.assertj>
   </properties>
@@ -81,6 +82,12 @@
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-launcher</artifactId>
         <version>${version.junit5.platform}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.spockframework</groupId>
+        <artifactId>spock-core</artifactId>
+        <version>${version.spock}</version>
       </dependency>
 
       <dependency>

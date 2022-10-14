@@ -165,6 +165,18 @@
         <version>${project.version}</version>
       </dependency>
 
+      <!-- Spock -->
+      <dependency>
+        <groupId>org.jboss.arquillian.spock</groupId>
+        <artifactId>arquillian-spock-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.arquillian.spock</groupId>
+        <artifactId>arquillian-spock-container</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
       <!-- TestNG -->
       <dependency>
         <groupId>org.jboss.arquillian.testng</groupId>
